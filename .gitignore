@@ -1,0 +1,9 @@
+Gemfile.lock
+.project
+.classpath
+.idea/
+.settings/
+target/
+*.retry
+.vagrant/
+*.log
