@@ -1,11 +1,11 @@
 package net.caimito;
 
-import java.util.List;
+import java.util.Set;
 
 import org.springframework.data.repository.CrudRepository;
 
 public interface AccountRepository extends CrudRepository<Account, Long> {
 
-	List<Account> findByDescription(String description);
+	Set<Account> findByDescription(String description);
 
 }
